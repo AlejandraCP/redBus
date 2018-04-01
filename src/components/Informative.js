@@ -8,7 +8,7 @@ const info = {
 };
 
 const reSizeCod = () => {
-  let sizeNumber = 46;
+  let sizeNumber = 24;
   let numberDigits = info.dataInfo.cod.toString().length;
   switch (numberDigits) {
     case 8:
@@ -28,7 +28,7 @@ const reSizeCod = () => {
 };
 
 const reSizePrice = () => {
-  let sizePrice = 28;
+  let sizePrice = 20;
   let numberDigits = info.dataInfo.price.length;
   switch (numberDigits) {
     case 7:
@@ -61,8 +61,8 @@ const showTime = () => {
 
 const Informative = () => {
   return (
-    <div className='ed-container cross-center content-info'>
-      <div className='ed-item m-1-3 cross-center'>
+    <ul className='ed-container cross-center content-info'>
+      <li className='ed-item s-35 cross-center'>
         <p>
           <span>Código de pago</span>
           <br />{' '}
@@ -70,31 +70,27 @@ const Informative = () => {
             {info.dataInfo.cod}
           </span>
         </p>
-      </div>
-      <div className='ed-item m-1-3 cross-center'>
+      </li>
+      <li className='ed-item s-25 cross-center'>
         <p>
           TOTAL <br /> S/.<span style={{ fontSize: reSizePrice() + 'px' }}>
             {info.dataInfo.price}
           </span>
         </p>
-      </div>
-      <div className='ed-item m-1-3 cross-center'>
+      </li>
+      <li className='ed-item s-40 cross-center'>
         <p>
           <span>
             {' '}
-            <img
-              src='./assets/icons/alarm.svg'
-              alt=''
-              className='alarm'
-            />{' '}
+            <img src='./assets/icons/alarm.svg' alt='' className='alarm' />{' '}
           </span>{' '}
           Tu orden expirará <br />{' '}
           <span>
             {date} - {showTime()}
           </span>
         </p>
-      </div>
-    </div>
+      </li>
+    </ul>
   );
 };
 export default Informative;
