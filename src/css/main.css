@@ -209,6 +209,9 @@
         list-style: none;
         text-align: center;
     }
+    .contact li img {
+        cursor: pointer;
+    }
     .print {
         text-align: center;
     }
@@ -218,6 +221,7 @@
         border-radius: 10px;
         color: var(--color-yellow);
         width: 5vh;
+        cursor: pointer;
     }
     .contact li:nth-child(1) {
         display: none;
@@ -327,20 +331,6 @@
         float: left;
         height: 2rem;
     }
-    /*slider plugin*/
-    /* button.slick-arrow.slick-prev {
-    background-color: black;
-    display: none !important;
-  }
-
-  button.slick-arrow.slick-next { 
-    position: absolute;
-    right: 20px;
-    top: -10px;
-    border-radius: 50px;
-    width: 30px;
-    padding-left: 2px;
-  } */
     .slider {
         margin: 2rem;
     }
@@ -415,6 +405,9 @@
         list-style: none;
         text-align: center;
     }
+    .contact li img {
+        cursor: pointer;
+    }
     .print {
         text-align: center;
         margin-top: 1rem;
@@ -425,6 +418,7 @@
         border-radius: 10px;
         color: var(--color-yellow);
         height: 3rem;
+        cursor: pointer;
     }
     .contact li:nth-child(1) {
         display: none;
@@ -489,6 +483,9 @@
     .contact li:nth-child(1) {
         display: block;
         font-size: 1.3rem;
+    }
+    .contact li:nth-child(1) img{
+        cursor: pointer;
     }
     .contact li:nth-child(2) {
         font-size: 1.3rem;
@@ -666,11 +663,15 @@
         list-style: none;
         text-align: center;
     }
+    .contact li img {
+      cursor: pointer;
+    }
     .print {
         display: none;
     }
     .print img {
         display: none;
+        cursor: pointer;
     }
     .contact li:nth-child(1) {
         display: none;
@@ -681,5 +682,5 @@
 }
 
 @page {
-  size: landscape;
+    size: landscape;
 }
