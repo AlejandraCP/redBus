@@ -42,7 +42,7 @@ class App extends Component {
           <Informative />
           <Switch>
             <Route path='/internet' component={InternetBanking} />
-            <Route path='/paycash' component={PayCash} />
+            <Route path='/pagarEfectivo' component={PayCash} />
             <Redirect from='/' to='/internet' />
           </Switch>
           <Footer />
