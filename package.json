@@ -2,7 +2,7 @@
   "name": "redbus",
   "version": "1.0.0",
   "private": true,
-  "description": "Reto starsup with react",
+  "description": "Reto startsup with react",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
