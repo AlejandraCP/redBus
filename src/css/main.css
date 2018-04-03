@@ -382,6 +382,9 @@
     .slick-list {
         height: 6rem;
     }
+    .style-img {
+        margin-left: 80px;
+    }
     .slick-slide {
         margin-top: 54px;
     }
@@ -745,8 +748,4 @@
     .contact li:nth-child(3) img {
         height: 5vh;
     }
-}
-
-.style-img {
-    margin-left: 80px;
 }

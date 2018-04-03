@@ -40,7 +40,7 @@ Maquetar y dar funcionalidad a una página responsiva de confirmación de la pas
 
 <img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
 
-### Vista desktop español
+### Vista desktop ingles
 
 <img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
 
@@ -48,7 +48,7 @@ Maquetar y dar funcionalidad a una página responsiva de confirmación de la pas
 
 <img  src="https://user-images.githubusercontent.com/32287306/38262704-a6e1c2b0-3733-11e8-85e0-ef36414bcfd5.png" alt="Vista desktop">
 
-### Vista desktop español
+### Vista desktop ingles
 
 <img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
 
