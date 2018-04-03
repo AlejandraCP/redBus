@@ -382,11 +382,11 @@
     .slick-list {
         height: 6rem;
     }
-        .style-img {
-            margin-left: 80px;
-        }
+    .style-img {
+       margin-left: 47px;
+    }
     .slick-slide {
-        margin-top: 54px;
+        margin-top: 34px;
     }
     .prev {
         position: absolute;
