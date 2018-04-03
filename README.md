@@ -2,7 +2,7 @@
 <span align="center">[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)</span>
 
 <p align="center">
-  <a href="https://cdn-images-1.medium.com/max/1200/1*dei7jVP89gp7tDNViaqK_A.png" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="redBus"></a></p>
+  <a href="https://isic.pe/wp-content/uploads/2017/09/REDBUS-app.jpg" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="redBus"></a></p>
 </p>
 
 <h1 align="center">Redbus.pe</h1>
