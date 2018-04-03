@@ -484,7 +484,7 @@
         display: block;
         font-size: 1.3rem;
     }
-    .contact li:nth-child(1) img{
+    .contact li:nth-child(1) img {
         cursor: pointer;
     }
     .contact li:nth-child(2) {
@@ -560,32 +560,34 @@
     .content-info li {
         list-style: none;
         margin-top: 1rem;
-        height: 5rem;
+        height: 9rem;
     }
     .content-info li:nth-child(1) {
         background: var(--color-time);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        padding-top: 0rem;
-        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .content-info li:nth-child(2) {
         background: var(--color-grey);
-        font-size: 1.3rem;
-        height: 5rem;
+        font-size: 1.5rem;
+        height: 9rem;
         text-align: center;
         display: inline-block;
+        padding-top: 1.5rem;
     }
     .content-info li:nth-child(3) {
         background: var(--color-time);
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-align: center;
         display: inline-block;
+        padding-top: 1.5rem;
     }
     .alarm {
         float: left;
@@ -643,7 +645,20 @@
         margin-bottom: 0.5rem;
     }
     .bpi {
-        display: none;
+        display: block;
+    }
+    .bpi {
+        background: var(--color-time);
+        color: #000;
+        ;
+        display: inline;
+        font-weight: 800;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    .bpi a {
+        color: #000;
     }
     /*Diseño del Componente PayCash*/
     .box-description-cash p:nth-child(1) {
@@ -657,14 +672,14 @@
     /*componente Footer*/
     .contact {
         padding: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .contact li {
         list-style: none;
         text-align: center;
     }
     .contact li img {
-      cursor: pointer;
+        cursor: pointer;
     }
     .print {
         display: none;
@@ -681,6 +696,6 @@
     }
 }
 
-@page {
+/* @page {
     size: landscape;
-}
+} */
