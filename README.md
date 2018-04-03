@@ -42,15 +42,15 @@ Maquetar y dar funcionalidad a una página responsiva de confirmación de la pas
 
 ### Vista desktop ingles
 
-<img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
+<img  src="https://user-images.githubusercontent.com/32287306/38264382-68928922-3738-11e8-98f4-4bd143255051.png" alt="Vista desktop">
 
 ### Vista mobile español
 
 <img  src="https://user-images.githubusercontent.com/32287306/38262704-a6e1c2b0-3733-11e8-85e0-ef36414bcfd5.png" alt="Vista desktop">
 
-### Vista desktop ingles
+### Diseño Print
 
-<img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
+<img  src="https://user-images.githubusercontent.com/32287306/38264578-0d073c32-3739-11e8-92cc-b8210e93a587.png" alt="print">
 
 
 ## HERRAMIENTAS UTILIZADAS:
