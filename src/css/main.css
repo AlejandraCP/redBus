@@ -156,7 +156,7 @@
         height: 5rem;
     }
     .slick-next {
-        right: 1rem !important;
+        right: 2rem !important;
     }
     .slider {
         margin: 2rem;
@@ -377,7 +377,7 @@
         left: -5px !important;
     }
     .slick-next {
-        right: 1rem !important;
+        right: 2rem !important;
     }
     .slick-list {
         height: 6rem;
