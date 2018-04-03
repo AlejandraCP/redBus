@@ -149,8 +149,14 @@
     .slick-prev {
         left: -5px !important;
     }
+    .slick-slide {
+        margin-top: 30px;
+    }
+    .slick-list {
+        height: 5rem;
+    }
     .slick-next {
-        right: -5px !important;
+        right: 1rem !important;
     }
     .slider {
         margin: 2rem;
@@ -167,6 +173,9 @@
         font-size: 2rem;
         color: var(--color-yellow);
         right: 0;
+    }
+    .style-img {
+        margin-left: 10px;
     }
     /*Diseño del Componente InternetBanking*/
     .selec-pay {
@@ -354,7 +363,7 @@
     }
     .slick-prev:before,
     .slick-next:before {
-        font-size: 25px !important;
+        font-size: 2.5rem !important;
         line-height: 1;
         color: #E0AA00 !important;
     }
@@ -368,7 +377,13 @@
         left: -5px !important;
     }
     .slick-next {
-        right: -5px !important;
+        right: 4rem !important;
+    }
+    .slick-list {
+        height: 6rem;
+    }
+    .slick-slide {
+        margin-top: 54px;
     }
     .prev {
         position: absolute;
@@ -732,4 +747,6 @@
     }
 }
 
-/* slider */
+.style-img {
+    margin-left: 80px;
+}

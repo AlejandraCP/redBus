@@ -21,7 +21,7 @@ const SliderPay = ({ imgArray, show }) => (
     <Slider {...settings} className='ed-container cross-center'>
       {imgArray.map((val, i) => (
         <div key={i}>
-          <img src={val.image} data-name={val.bank} onClick={show} />
+          <img src={val.image} data-name={val.bank} onClick={show} className='style-img'/>
         </div>
       ))}
     </Slider>

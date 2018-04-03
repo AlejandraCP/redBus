@@ -2,109 +2,66 @@
 <span align="center">[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)</span>
 
 <p align="center">
-  <a href="https://www.laboratoria.la/" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="Laboratoria logo"></a></p>
+  <a href="https://cdn-images-1.medium.com/max/1200/1*dei7jVP89gp7tDNViaqK_A.png" rel="noopener" target="_blank"><img width="200" src="assets/l-amarilloblanco.png" alt="redBus"></a></p>
 </p>
 
-<h1 align="center">stylelab</h1>
+<h1 align="center">Redbus.pe</h1>
 
-Presentamos la guía de estilos, la cual te ayudará con el desarrollo de los diferentes productos digitales propios de la marca Laboratoria, dónde podrás realizar piezas de manera rápida con todos los elementos del branding actual.
+## OBEJTIVO:
+Maquetar y dar funcionalidad a una página responsiva de confirmación de la pasarela Pago Efectivo, la página brindará mayor conversión a las ventas realizadas en Pago Efectivo y Banca Online.
 
 <div>
 
-## Soporte de Stylelab
+## REQUISITOS  
 
-Stylelab es un proyecto de Laboratoria open source. Es un proyecto desarrollado como parte del Bootcamp 2017-II, un trabajo colaborativo entre desarrolladoras Front-End y UX Designers.
+### REQUISITOS FUNCIONALES:
+* La página web debe mostrarse según el diseño adjunto en equipos de escritorio y móviles.
+* La página web debe estar en "Inglés" y "Español", una página por cada idioma.
+* La página web debe mostrar las pestañas de "Banca por Internet" y "Pagar en Efectivo", al seleccionar una de las opciones debe de cargarse la información relacionada (según diseño) en la misma página.
+* En la página web los iconos de "formas de pago" (agentes de bancos y medios de pago) deben mostrar el texto correspondiente al banco seleccionado, considerar el contenido de los diseños adjuntos.
+* En la página web el enlace de "encuentra tu punto de pago" debe abrir la URL: https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true
+* En la página web el enlace "contacto@redbus.pe" debe abrir el cuadro de email por defecto del navegador (mailto).
+* Desarrollar una propuesta para vista de impresión de la página. Esta página debe verse al imprimir la página o hacer click en el enlace del icono de impresora.
+* El bloque del "código de pago" (ejm: 9125682) debe permitir poner un número de 8 dígitos como máximo. Si la cantidad de digitos aumenta el tipo de fuente se debe ajustar para ocupar el espacio correspondiente del bloque que lo contiene.
+* El bloque "Total" (ejm s/.140) debe permitir un monto con 4 dígitos, el texto debe de ajustarse en tamaño al bloque contenedor si la cantidad de dígitos aumenta.
 
-## Tabla de contenido
-
-* [Instalación](#instalación)
-
-### Documentación
-
-* [Uso de componente](#uso-de-componente)
-* [Componente Button](#componente-button)
-* [Componente Typography](#componente-typography)
-* [Componente Card](#componente-card)
-
-## Instalación
-
-stylelab está disponible en [npm package](https://www.npmjs.com/package/stylelab).
-
-```sh
-npm install stylelab
-```
-
-## Uso de componente
-
-```jsx
-import React from "react";
-import { Button } from "stylelab";
-
-function App() {
-  return (
-    <Button yellow bold>
-      Hello World
-    </Button>
-  );
-}
-
-render(<App />, document.querySelector("#app"));
-```
-
-#### Importando varios componentes
-
-```jsx
-import { Button, Typography, Card } from 'stylelab';
-
-}
-```
-
-## Componente Button
-
-Opciones: Se modifica el estilo del botón agregando los siguientes atributos:  
- `Colores de fondo:` yellow, green o pink.  
- `Tamaño:` big, medium o small.  
- `Color de Fuente:` white.  
- \*El color negro de la fuente ya esta predetermiando.  
- `Grosor de fuente:` bold.
-
-**Ejemplo**
-
-<img width="150px" height='47px' src="assets/btn-small.png" alt="Boton pequeño">
-<img width="240px" height='47px' src="assets/btn-medium.png" alt="Boton mediano">
-<img width="280px" height='47px' src="assets/btn-large.png" alt="Boton large">
+## REQUISITOS NO FUNCIONALES:
+* La página debe visualizarse correctamente el escritorio en todos los navegadores.
+* La página debe visualizarse correctamente en los equipos móviles: Android & iOS.
+* Las archivos css y javascript deben estar en un dominio distinto al del HTML (considerar cross-domain en el desarrollo).
+* Los archivos css y javascript deben estar minificados.
+* La página debe pasar las pruebas en PageSpeed de Google https://developers.google.com/speed/pagespeed/insights/
+* Las imágenes deben estar optimizadas a los tamaños indicados según diseño.
 
 
-## Componente Typography
+## Vistas del proyecto
 
-Demasiados estilos/tamaños de letras pueden arruinar cualquier diseño. Stylelab cuenta con una escala tipográfica, tiene un conjunto limitado de tamaños.
+### Vista desktop español
 
-Opciones: Se modifica el estilo agregando los siguientes atributos:
-**Atributos de tamaño**
-`title1:` Título principal.  
- `title2:` Título secundario.  
- `title3:` Título terciario.  
- `phrase:` Usado en frases.
-`body`
-`body2`  
- **Atributo de colores**  
- `yellow, green o pink`  
- **Atributo para subrayado**  
- `under`  
- **Atributo grosor de fuente**  
- `bold`
+<img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
 
-**Ejemplo**
+### Vista desktop español
 
-<img src="assets/typography.png" alt="tipografia">
+<img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
+
+### Vista mobile español
+
+<img  src="https://user-images.githubusercontent.com/32287306/38262704-a6e1c2b0-3733-11e8-85e0-ef36414bcfd5.png" alt="Vista desktop">
+
+### Vista desktop español
+
+<img  src="https://user-images.githubusercontent.com/32287306/38262530-1481026e-3733-11e8-91c7-371111ba4d55.png" alt="Vista desktop">
 
 
-## Componente Card
+## HERRAMIENTAS UTILIZADAS:
+* HTML5
+* CSS3
+* Javascript (ES6)
+* REACT
+* Slick-carousel (plugin)
+* Ed-grid (gris-sistem)
 
-Opciones: Se modifica el estilo agregando los siguientes atributos:
-**Atributos de tamaño**  
- `big`
-`small`  
- **Atributo de fondo de color**  
- `yellow, green o pink`
+### DESARROLLADORAS  
 
+* Kamaly Zapana  
+* Alejandra Cabrera  
