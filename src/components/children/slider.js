@@ -10,8 +10,8 @@ const settings = {
   infinite: true,
   centerPadding: '60px',
   speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4
+  slidesToShow: 5,
+  slidesToScroll: 5
   // prevArrow: $('.prev'),
   // nextArrow: $('.next')
 };
